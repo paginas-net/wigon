@@ -88,7 +88,7 @@ header {
   img{
     width: 100%; /* Las imágenes ocuparán todo el ancho de su contenedor */
     height: auto; /* Mantienen la proporción original */
-    max-width: 400%; /* Puedes ajustar este valor para limitar el tamaño máximo */
+    max-width: 100%; /* Puedes ajustar este valor para limitar el tamaño máximo */
   }
   .menu { 
     color: rgb(7, 7, 7);
@@ -98,23 +98,23 @@ header {
     padding: 8px;
     text-align: center;
     margin-top: 14%;
-    margin-left: 40%;
+    margin-left: 0%;
     border-collapse: collapse;
     width: 100%; /* Ancho de la tabla */
 
   }
   .perros{
     margin-top: 7%; /*espasio superior*/
-    margin-left: 20%; /*espacio lateral izquierdo*/
+    margin-left: 10%; /*espacio lateral izquierdo*/
     border-collapse: collapse;
-    width: 90%; /* Ancho de la tabla */
+    width: 80%; /* Ancho de la tabla */
   }
   
   .empanadas {
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 10%;
     border-collapse: collapse;
-    width: 90%; /* Ancho de la tabla */
+    width: 80%; /* Ancho de la tabla */
     
   }
   .informacion{
@@ -126,9 +126,9 @@ header {
     padding: 8px;
     text-align: center ;
     margin-top: 0%;
-    margin-left: 20%;
+    margin-left: 10%;
     border-collapse: collapse;
-    width: 90%; /* Ancho de la tabla */
+    width: 80%; /* Ancho de la tabla */
   }
   
   
@@ -143,7 +143,7 @@ header {
     color: rgb(247, 19, 19);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 80px;
-    margin-left: -50%;
+    margin-left: 0%;
   }
   h2{
     color: #ffffff;
@@ -179,9 +179,9 @@ header {
     padding: 8px;
     text-align: center ;
     margin-top: 0%;
-    margin-left: 20%;
+    margin-left: 10%;
     border-collapse: collapse;
-    width: 90%; /* Ancho de la tabla */
+    width: 80%; /* Ancho de la tabla */
   }
   button {
     background: #1ffb7b;
