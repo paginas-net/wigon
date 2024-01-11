@@ -1,0 +1,203 @@
+
+body{
+  /*color de fondo*/
+  background-color: black;
+  /*ingresamos la imagen*/
+  background-image: url(fondo.png);
+  /*hacemos que no sse repita*/
+  background-repeat: no-repeat;
+  /*centrar la imagen*/
+  background-position: center ;
+  /*ajustar la posicion eje x, eje y (centrar= center center)*/
+  background-position: center center;
+  /*aca podemos acomodar el espacio de la pagina en caso que la imagen 
+  no se puedaver completa */
+  height: auto;
+  
+  /* evitar el movimiento de la imagen de fondo*/
+  background-attachment: fixed;
+  /*para que la imagen cubra la pantalla*/
+  background-size: 119%;
+}
+
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0px;
+    width: 85%;
+    background-color: black;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Asegura que el menú esté por encima del resto del contenido */
+  }
+
+  .domicilios{
+    height: 40px; /* Ajusta la altura según tu logo */
+    left: 75%;
+    font-size: 40px; /*tamaño de letra*/
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .contacto{
+    
+  }
+  
+  .logo img {
+    height: 40px; /* Ajusta la altura según tu logo */
+    width: 15%;
+    height: 15%; 
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+    padding: 10% -10%;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    /*la posision fixed ayuda a fijar el boton y no se mueva con la pantalla*/
+    position: fixed;
+    transform: translate3d(-50, -50, 0);
+    width: 50px;
+    height: 50px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #000000;
+  }
+  img{
+    width: 100%; /* Las imágenes ocuparán todo el ancho de su contenedor */
+    height: auto; /* Mantienen la proporción original */
+    max-width: 400%; /* Puedes ajustar este valor para limitar el tamaño máximo */
+  }
+  .menu { 
+    color: rgb(7, 7, 7);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border: 5px solid #07070700;
+    padding: 8px;
+    text-align: center;
+    margin-top: 14%;
+    margin-left: 40%;
+    border-collapse: collapse;
+    width: 100%; /* Ancho de la tabla */
+
+  }
+  .perros{
+    margin-top: 7%; /*espasio superior*/
+    margin-left: 42%; /*espacio lateral izquierdo*/
+    border-collapse: collapse;
+    width: 90%; /* Ancho de la tabla */
+  }
+  
+  .empanadas {
+    margin-top: 20%;
+    margin-left: 42%;
+    border-collapse: collapse;
+    width: 90%; /* Ancho de la tabla */
+    
+  }
+  .menu1{
+
+    color: rgb(252, 244, 244);
+    font-family:inherit;
+    font-size: 50px;
+    border: 5px solid #f5f2f200;
+    padding: 8px;
+    text-align: center ;
+    margin-top: 0%;
+    margin-left: 40%;
+    border-collapse: collapse;
+    width: 100%; /* Ancho de la tabla */
+  }
+  
+  
+  td {
+    
+    border: 5px solid #fcf9f9;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  h1{
+    color: rgb(5, 134, 209);
+    font-family:cursive;
+    font-size: 80px;
+    margin-left: 0%;
+  }
+  h2{
+    color: #ffffff;
+    font-size: 65px;
+  }
+  h3{
+    color: #ffee00;
+    font-size: 45px;
+  }
+  h4{
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+    
+  }
+  h5{
+    color: #ffd900;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  a{
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     
+  }
+  .publicidad{
+    color: rgb(252, 244, 244);
+    font-family:inherit;
+    font-size: 50px;
+    border: 5px solid #f5f2f200;
+    padding: 8px;
+    text-align: center ;
+    margin-top: 0%;
+    margin-left: 40%;
+    border-collapse: collapse;
+    width: 100%; /* Ancho de la tabla */
+  }
+  button {
+    background: #1ffb7b;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 50px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+  
+  
+ 
