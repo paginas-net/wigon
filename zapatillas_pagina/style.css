@@ -1,0 +1,217 @@
+html{
+    height: 105% ;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 93%;
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Asegura que el menú esté por encima del resto del contenido */
+}
+
+.logo img {
+  height: 40px; /* Ajusta la altura según tu logo */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10% -10%;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+h1{
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    transform: translate3d(-50, -50, 0);
+    /*movemos el div a la isquierda disminuye derecha aumenta.*/
+    left: 30%;
+    /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
+    top: 24px;
+}
+
+h2{
+  color: white;
+    position: absolute;
+    transform: translate3d(-50, -50, 0);
+    /*movemos el div a la isquierda disminuye derecha aumenta.*/
+    left: 10px;
+    /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
+    top: 300px;
+}
+
+
+.gallery-container {
+  display:flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 400px /* Ocupa toda la altura de la ventana */
+  /* Otros estilos para posicionar la galería */
+}
+
+/* Estilos de la galería */
+.gallery {
+  position: relative;
+  
+}
+
+/* Estilos de la imagen y su descripción */
+.image-wrapper {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  width: 200px; /* Ancho deseado para todas las imágenes */
+  height: 200px; /* Altura deseada para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen sin distorsionar, recortándola si es necesario */
+  
+  
+}
+
+.image-wrapper img {
+  max-width: 80%;
+  min-width: 80%;
+  height: auto;
+  border: 8px solid white;
+  padding: 4px;
+
+}
+
+.description {
+  position: absolute;
+  bottom: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Estilos de los botones de adelante y atrás */
+.prev,
+.next {
+position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: 30%; /* Hace que el botón sea redondo */
+  background-color: white; /* Color de fondo */
+  border: none; /* Elimina el borde */
+  color: #0c0c0c; /* Color del texto */
+  font-size: 16px;
+  cursor: pointer;
+  outline: none; /* Elimina el contorno al enfocar */
+  transition: transform 0.3s ease; /* Agrega una transición suave al botón */
+
+
+  /*position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: rgba(5, 5, 5, 0.8);
+  border: none;
+  color: rgb(253, 251, 251);
+  padding: 10px;
+  cursor: pointer;*/
+  
+}
+
+
+.prev {
+  left: -27%;
+  top: 35%;
+}
+
+.next {
+  
+  left: 97%;
+  top: 35%;
+}
+
+
+
+
+
+
+
+body{
+    /*color de fondo*/
+    background-color: black;
+    /*ingresamos la imagen*/
+    background-image: url(fondo.jpeg);
+    /*hacemos que no sse repita*/
+    background-repeat: no-repeat;
+    /*centrar la imagen*/
+    background-position: center ;
+    /*ajustar la posicion eje x, eje y (centrar= center center)*/
+    background-position: center center;
+    /*aca podemos acomodar el espacio de la pagina en caso que la imagen 
+    no se puedaver completa */
+    height: auto;
+    
+    /* evitar el movimiento de la imagen de fondo*/
+    background-attachment: fixed;
+    /*para que la imagen cubra la pantalla*/
+    background-size: 105%;
+
+    
+    
+}
+
+.galeria {
+    
+    margin-top: 3%; /*ajustar margen superior de la galeria*/
+    margin-left: 10%; /*ajustar margen lateral*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espacio entre las imágenes */
+  }
+  
+  .galeria img {
+    width: 100%; /* Las imágenes ocuparán todo el ancho de su contenedor */
+    height: auto; /* Mantienen la proporción original */
+    max-width: 100px; /* Puedes ajustar este valor para limitar el tamaño máximo */
+  }
+
+    .vinculo{
+        
+        /*la posision fixed ayuda a fijar el boton y no se mueva con la pantalla*/
+        position: fixed;
+        transform: translate3d(-50, -50, 0);
+        /*movemos el div a la isquierda disminuye derecha aumenta.*/
+        left: 3%;
+        /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
+        top: 91%;
+        
+        
+    }
+
+

@@ -3,7 +3,7 @@ body{
   /*color de fondo*/
   background-color: black;
   /*ingresamos la imagen*/
-  background-image: url(fondo.png);
+  background-image: url(fondo.jpeg);
   /*hacemos que no sse repita*/
   background-repeat: no-repeat;
   /*centrar la imagen*/
@@ -25,8 +25,8 @@ header {
     position: fixed;
     top: 0%;
     left: 0px;
-    width: 85%;
-    background-color: black;
+    width: 100%;
+    background-color: rgb(240, 21, 21);
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -35,14 +35,21 @@ header {
   }
 
   .domicilios{
+    /*letrero junnto al logo de whatsapp*/
     height: 40px; /* Ajusta la altura según tu logo */
-    left: 75%;
+    left: 73%;
     font-size: 40px; /*tamaño de letra*/
     font-family: 'Times New Roman', Times, serif;
   }
 
   .contacto{
-    
+    /* logo de whatsapp*/
+    height: 10px; /* Ajusta la altura según tu logo */
+    left: 88%;
+    width: 7%;
+    height: 7%; 
+    top: 0.5%;
+
   }
   
   .logo img {
@@ -51,14 +58,14 @@ header {
     height: 15%; 
   }
   
-  nav ul {
+  nav ul li {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display:inline-flex;
   }
   
-  nav ul li {
+  nav ul  {
     margin-left: 20px;
   }
   
@@ -76,7 +83,7 @@ header {
   }
   
   nav ul li a:hover {
-    background-color: #000000;
+    background-color: #080707;
   }
   img{
     width: 100%; /* Las imágenes ocuparán todo el ancho de su contenedor */
@@ -98,30 +105,30 @@ header {
   }
   .perros{
     margin-top: 7%; /*espasio superior*/
-    margin-left: 42%; /*espacio lateral izquierdo*/
+    margin-left: 20%; /*espacio lateral izquierdo*/
     border-collapse: collapse;
     width: 90%; /* Ancho de la tabla */
   }
   
   .empanadas {
     margin-top: 20%;
-    margin-left: 42%;
+    margin-left: 20%;
     border-collapse: collapse;
     width: 90%; /* Ancho de la tabla */
     
   }
-  .menu1{
+  .informacion{
 
     color: rgb(252, 244, 244);
     font-family:inherit;
     font-size: 50px;
-    border: 5px solid #f5f2f200;
+    border: 5px solid #0e0d0d00;
     padding: 8px;
     text-align: center ;
     margin-top: 0%;
-    margin-left: 40%;
+    margin-left: 20%;
     border-collapse: collapse;
-    width: 100%; /* Ancho de la tabla */
+    width: 90%; /* Ancho de la tabla */
   }
   
   
@@ -133,10 +140,10 @@ header {
   }
   
   h1{
-    color: rgb(5, 134, 209);
-    font-family:cursive;
+    color: rgb(247, 19, 19);
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 80px;
-    margin-left: 0%;
+    margin-left: -50%;
   }
   h2{
     color: #ffffff;
@@ -172,9 +179,9 @@ header {
     padding: 8px;
     text-align: center ;
     margin-top: 0%;
-    margin-left: 40%;
+    margin-left: 20%;
     border-collapse: collapse;
-    width: 100%; /* Ancho de la tabla */
+    width: 90%; /* Ancho de la tabla */
   }
   button {
     background: #1ffb7b;
