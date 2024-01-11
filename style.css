@@ -37,18 +37,18 @@ header {
   .domicilios{
     /*letrero junnto al logo de whatsapp*/
     height: 40px; /* Ajusta la altura según tu logo */
-    left: 73%;
+    left: 65%;
     font-size: 40px; /*tamaño de letra*/
     font-family: 'Times New Roman', Times, serif;
   }
 
   .contacto{
     /* logo de whatsapp*/
-    height: 10px; /* Ajusta la altura según tu logo */
+    height: 9px; /* Ajusta la altura según tu logo */
     left: 88%;
     width: 7%;
     height: 7%; 
-    top: 0.5%;
+    top: 1.5%;
 
   }
   
